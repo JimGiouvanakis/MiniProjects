@@ -1,2 +1,2 @@
-# Projects
-Small Projects 
+# MiniProjects
+Small Projects.
