@@ -13,18 +13,10 @@
     color: #3250bf;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
     transform: translateY(30px);
-    /* opacity: 0; 
-    visibility: hidden;  */
+    opacity: 0; 
+    animation: fade-in 6s 0.25s ease-in-out; 
+}
    
-}
-.notification {
-    animation: fade-in 4s  linear-forwards;
-}
-
-
-/* .notification:hover {
-    background-color: red;
-} */
 
 .notification_progress {
     position: absolute;
@@ -37,22 +29,17 @@
     background-image: linear-gradient(
         to right, #539bdb, #3250bf);
     border-radius: inherit;
-}
-
-.notification_progress {
     animation: load 3s 0.25s linear forwards; 
 }
-}
+
  @keyframes fade-in {
-     from {
+     5% {
         opacity: 1;
-        visibility: visible;
         transform: translateY(0);
     }
 
-      to {
-        opacity: 1;
-        transform: translateY(0);
+      100% {
+        opacity: 0;
     }
 }
 
