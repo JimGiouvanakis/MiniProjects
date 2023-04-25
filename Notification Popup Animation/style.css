@@ -32,6 +32,8 @@
     animation: load 3s 0.25s linear forwards; 
 }
 
+
+
  @keyframes fade-in {
      5% {
         opacity: 1;
@@ -42,6 +44,7 @@
         opacity: 0;
     }
 }
+
 
 @keyframes load {
     to {
